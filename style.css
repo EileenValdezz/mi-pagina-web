@@ -11,12 +11,8 @@ body {
 header {
   background-color: #ff4da6; 
   text-align: center;
-  padding: 30px 20px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 32px;
+  padding: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -40,18 +36,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-.btn-group {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
-
 .btn {
-  flex: 1;
-  text-align: center;
+  display: inline-block;
   background-color: #ff4da6;
   color: white;
-  padding: 12px 20px;
+  padding: 10px 20px;
+  margin: 8px 0;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -61,7 +51,6 @@ h2 {
 .btn:hover {
   background-color: #e60073; 
 }
-
 
 strong {
   color: #fff;
